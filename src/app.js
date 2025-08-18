@@ -9,4 +9,4 @@ app.use(express.urlencoded({extended: true})); // Parse URL-encoded bodies
 app.use(express.static("public")); // Serve static files from the "public" directory
 app.use(cookieParser()); // Parse cookies
 
-export {app}
+export default app;
